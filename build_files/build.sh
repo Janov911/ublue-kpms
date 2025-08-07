@@ -10,9 +10,8 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-#dnf5 install -y tmux ansible asciiquarium autojump bat cmake cmatrix dbus-devel firejail git-crypt irssi konsole libxkbcommon-devel lolcat lsd neovim newsboat nextcloud-client pcre podman-compose podman-docker ranger tealdeer trash-cli wxGTK-devel.x86_64 zoxide btop  
+dnf5 install -y tmux ansible asciiquarium autojump bat cmake cmatrix dbus-devel firejail git-crypt irssi konsole libxkbcommon-devel lolcat lsd neovim newsboat nextcloud-client pcre podman-compose podman-docker ranger tealdeer trash-cli wxGTK-devel.x86_64 zoxide btop  
 
-dnf5 install ansible asciiquarium autojump bat cmake cmatrix dbus-devel firejail git-crypt gnome-tweaks irssi konsole libxkbcommon-devel lolcat lsd neovim newsboat nextcloud-client pcre podman-compose podman-docker powertop ranger tealdeer trash-cli wxGTK-devel.x86_64 zoxide gcc git curl wget btop tmux fzf fastfetch wl-clipboard 
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
