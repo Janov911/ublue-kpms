@@ -10,7 +10,7 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 install -y  stow ansible asciiquarium autojump bat cmatrix dbus-devel eureka eza fd-find feh fzf firejail git-crypt glow irssi konsole lolcat lsd lua neovim neomutt newsboat nextcloud-client pcre podman-compose podman-docker ranger ripgrep samba sd task taskopen tealdeer trash-cli unbound vit wxGTK-devel.x86_64 zoxide --skip-broken
+dnf5 install -y stow ansible asciiquarium autojump bat cmatrix dbus-devel eureka eza fd-find feh firejail git-crypt irssi konsole lolcat lsd lua neovim neomutt newsboat nextcloud-client pcre podman-compose podman-docker ranger ripgrep task taskopen tealdeer trash-cli unbound vit wxGTK-devel.x86_64 zoxide --skip-broken 
 
 # Use a COPR Example:
 #
