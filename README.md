@@ -10,6 +10,14 @@ If you prefer instructions in video form, TesterTech created an excellent tutori
 
 [![Video Tutorial](https://img.youtube.com/vi/IxBl11Zmq5w/0.jpg)](https://www.youtube.com/watch?v=IxBl11Zmq5wE)
 
+## Switch to Your Image
+From your bootc system, run the following command substituting in your Github username and image name where noted.
+```
+sudo bootc switch ghcr.io/<username>/<image_name>
+```
+
+This should queue your image for the next reboot, which you can do immediately after the command finishes. You have officially set up your custom image! See the following section for an explanation of the important parts of the template for customization.
+
 this version has been expanded to include a lot of CLI items f.e. embedded versions of:
 
 - stow
