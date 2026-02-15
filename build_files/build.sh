@@ -8,9 +8,10 @@ set -ouex pipefail
 # RPMfusion repos are available by default in ublue main images
 # List of rpmfusion packages can be found here:
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
+dnf config-manager addrepo --from-repofile=https://repository.mullvad.net/rpm/stable/mullvad.repo
 
 # this installs a package from fedora repos
-dnf5 install -y stow ansible asciiquarium autojump bat cmatrix dbus-devel eureka eza fd-find feh firejail git-crypt gnome-boxes gnome-tweaks irssi kitty konsole lolcat lsd lua neovim neomutt newsboat nextcloud-client pcre podman-compose podman-docker ranger ripgrep task taskopen tealdeer trash-cli unbound vit zoxide --skip-broken --skip-unavailable 
+dnf5 install -y stow ansible asciiquarium autojump bat cmatrix dbus-devel eureka eza fd-find feh firejail git-crypt gnome-boxes gnome-tweaks irssi kitty konsole lolcat lsd lua mullvad-vpn neovim neomutt newsboat nextcloud-client pcre podman-compose podman-docker ranger ripgrep task taskopen tealdeer trash-cli unbound vit zoxide --skip-broken --skip-unavailable 
 
 # Use a COPR Example:
 #
