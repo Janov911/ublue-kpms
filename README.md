@@ -1,14 +1,9 @@
-# image-template
+# KPMS Bazzite image template for 
 
-This repository nas been copied from the UBLUE [bootc](https://github.com/bootc-dev/bootc) template image. 
+This repository has been copied from the UBLUE [bootc](https://github.com/bootc-dev/bootc) template image. 
 This template is the recommended way to make customizations to any image published by the Universal Blue Project.
 
-# How to Use
-
-To get started on your first bootc image, simply read and follow the steps in the next few headings.
-If you prefer instructions in video form, TesterTech created an excellent tutorial, embedded below.
-
-[![Video Tutorial](https://img.youtube.com/vi/IxBl11Zmq5w/0.jpg)](https://www.youtube.com/watch?v=IxBl11Zmq5wE)
+I have customized it to suit my preferences for workstations, both on the desktop and the handhelds I use.
 
 ## Switch to Your Image
 From your bootc system, run the following command substituting in your Github username and image name where noted.
@@ -34,7 +29,9 @@ this version has been expanded to include a lot of CLI items f.e. embedded versi
 - firejail
 - git-crypt
 - gnome-boxes
+- gnome-tweaks
 - irssi
+- kitty
 - konsole
 - lolcat
 - lsd
@@ -56,4 +53,6 @@ this version has been expanded to include a lot of CLI items f.e. embedded versi
 - vit
 - zoxide
 
-Now working on my own look and feel and including the Brewfile.
+
+
+My own look and feel will be included in the build file over time, and I will also add a brewfile with additional applications.
