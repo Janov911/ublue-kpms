@@ -13,9 +13,6 @@ set -ouex pipefail
 # this installs a package from fedora repos
 dnf5 install -y stow ansible asciiquarium autojump bat cmatrix dbus-devel eureka eza fd-find feh firejail git-crypt gnome-boxes gnome-tweaks irssi kitty konsole lolcat lsd lua neovim neomutt newsboat nextcloud-client pcre podman-compose podman-docker ranger ripgrep task taskopen tealdeer trash-cli unbound vit zoxide --skip-broken --skip-unavailable 
 
-# brew install apps:
-brew install eza
-
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
