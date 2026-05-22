@@ -11,7 +11,7 @@ set -ouex pipefail
 # dnf config-manager addrepo --from-repofile=https://repository.mullvad.net/rpm/stable/mullvad.repo
 
 # this installs a package from fedora repos
-dnf5 install -y stow ansible asciiquarium autojump bat cmatrix dbus-devel eureka eza fd-find feh firejail git-crypt gnome-boxes gnome-tweaks irssi kitty konsole lolcat lsd lua neovim neomutt newsboat nextcloud-client pcre podman-compose podman-docker ranger ripgrep task taskopen tealdeer trash-cli unbound vit zoxide --skip-broken --skip-unavailable 
+dnf5 install -y stow ansible asciiquarium autojump aerc bat cmatrix dbus-devel eureka eza fd-find feh firejail git-crypt gnome-boxes gnome-tweaks httpie irssi kitty konsole lolcat lsd lua ncdu neovim neomutt newsboat nextcloud-client pcre podman-compose podman-docker ranger ripgrep task taskopen tealdeer trash-cli unbound vit zoxide --skip-broken --skip-unavailable 
 
 # Use a COPR Example:
 #
