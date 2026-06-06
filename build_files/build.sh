@@ -3,6 +3,11 @@
 set -ouex pipefail
 
 ### Install packages
+# 
+### Third-party repos needed for a few packages that aren't in Fedora or RPMFusion.
+# Tailscale
+curl -fsSL https://pkgs.tailscale.com/stable/fedora/tailscale.repo \
+    -o /etc/yum.repos.d/tailscale.repo
 
 # Packages can be installed from any enabled yum repo on the image.
 # RPMfusion repos are available by default in ublue main images
@@ -11,7 +16,7 @@ set -ouex pipefail
 # dnf config-manager addrepo --from-repofile=https://repository.mullvad.net/rpm/stable/mullvad.repo
 
 # this installs a package from fedora repos
-dnf5 install -y stow ansible asciiquarium autojump aerc bat cmatrix dbus-devel eureka eza fd-find feh firejail git-crypt gnome-boxes gnome-tweaks httpie irssi kitty konsole lolcat lsd lua ncdu neovim neomutt newsboat nextcloud-client pcre podman-compose podman-docker ranger ripgrep task taskopen tealdeer trash-cli unbound vit zoxide --skip-broken --skip-unavailable 
+dnf5 install -y stow ansible asciiquarium autojump aerc bat cmatrix dbus-devel eureka eza fd-find feh firejail git-crypt gnome-boxes gnome-tweaks httpie irssi kitty konsole lolcat lsd lua ncdu neovim neomutt newsboat nextcloud-client pcre podman-compose podman-docker ranger ripgrep tailscale task taskopen tealdeer trash-cli unbound vit zoxide --skip-broken --skip-unavailable 
 
 # Use a COPR Example:
 #
