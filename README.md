@@ -53,6 +53,6 @@ this version has been expanded to include a lot of CLI items f.e. embedded versi
 - vit
 - zoxide
 
-
+Remainder can be done from brew_install.sh
 
 My own look and feel will be included in the build file over time, and I will also add a brewfile with additional applications.
