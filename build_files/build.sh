@@ -39,6 +39,7 @@ gnome-tweaks \
 gnome-directory-thumbnailer \
 gparted \
 httpie \
+input-leap \
 irssi \
 kitty \
 konsole \
